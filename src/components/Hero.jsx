@@ -7,7 +7,7 @@ const Hero = () => {
     const roles= [ "Full Stack Developer", "Android Developer", "UI/UX Designer", "Programmer" ]
     const textXl = 'text-5xl md:text-6xl font-semibold my-4'
   return (
-    <div className="flex items-center justify-center flex-wrap-reverse p-4 text-white gap-16 md:gap-0">
+    <div className="flex items-center justify-center flex-wrap-reverse p-4 text-white gap-16 md:gap-0" style={{background: 'rgb(25, 25, 36);',clipPath: 'polygon(0px 0px, 100% 0px, 100% 100%, 70% 95%, 0px 100%);'}}>
       <div className="md:basis-1/2 md:pl-52 text-center md:text-left">
         <h1 className={textXl}>Hi, I am</h1>
         <h1 className={textXl}>Joel Henry</h1>

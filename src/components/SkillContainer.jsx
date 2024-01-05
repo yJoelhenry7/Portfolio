@@ -69,6 +69,11 @@ const SkillContainer = () => {
                 "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
             },
             {
+                name: "Flask",
+                image:
+                  "https://camo.githubusercontent.com/93e24451f31be6bde3c380832f676128de66261b99c04adc42230fe9ab415733/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f706f636f6f5f666c61736b2f706f636f6f5f666c61736b2d69636f6e2e737667",
+              },
+            {
               name: "MySQL",
               image:
                 "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
@@ -151,6 +156,11 @@ const SkillContainer = () => {
               image:
                 "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
             },
+            {
+                name: "Linux",
+                image:
+                  "https://www.vectorlogo.zone/logos/linux/linux-icon.svg",
+              },
             // {
             //   name: "Figma",
             //   image:
@@ -164,9 +174,9 @@ const SkillContainer = () => {
         {skills.map((skill,i)=> (
             <div className="border border-white m-4 p-8 max-w-lg rounded-xl" style={{boxShadow: 'rgba(23, 92, 230, 0.15) 0px 4px 24px', border: '0.1px solid rgb(133, 76, 230'}}  key={i}>
                 <h1 className="text-center text-2xl md:text-4xl text-white font-semibold opacity-70 my-4">{skill.title}</h1>
-                <div className="flex items-center justify-center flex-wrap gap-2">
+                <div className="flex items-center justify-center flex-wrap gap-2 cursor-pointer" >
                     {skill.skills.map((details,i)=> (
-                        <div className="flex items-center gap-2 border border-white border-opacity-50 rounded-xl p-2" key={i}>
+                        <div className="flex items-center gap-2 border border-white border-opacity-50 rounded-xl p-2 hover:bg-white hover:bg-opacity-50 hover:text-black" key={i}>
                             <img className="w-5" src={details.image} alt="logo" />
                             <h1 className="opacity-50">{details.name}</h1>
                         </div>
