@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        transparent: 'transparent',
+        current: 'currentColor',
+        'black':'#000000',
+        'white': '#ffffff',
+        'purplish':'#854ce6',
+      }
+    },
     screens: {
       'sm': '524px',
       // => @media (min-width: 524px) { ... }

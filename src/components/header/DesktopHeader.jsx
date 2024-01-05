@@ -1,14 +1,13 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 
 const DesktopHeader = () => {
   return (
     <>
         <ul className='hidden md:flex gap-4 items-center'>
-            <li className='text-white'><Link to='/'>Home</Link></li>
-            <li className='text-white'><Link to='/AboutMe'>About Me</Link></li>
-            <li className='text-white'><Link to='/Projects'>Projects</Link></li>
-            <li className='text-white'><Link to='/Experience'>Experience</Link></li>
+            <li className='text-white'><NavLink to='/'>Home</NavLink></li>
+            <li className='text-white'><NavLink to='/Projects'>Projects</NavLink></li>
+            <li className='text-white'><NavLink to='/Experience'>Experience</NavLink></li>
         </ul>
     </>
   )
