@@ -1,5 +1,6 @@
 import Footer from "../components/Footer"
 import Hero from "../components/Hero"
+import Skills from "../components/Skills"
 import Header from "../components/header/Header"
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <>
       <Header />
       <Hero />
+      <Skills />
       <Footer />
     </>
   )

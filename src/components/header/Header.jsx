@@ -12,7 +12,7 @@ const Header = () => {
     }
   return (
     <>
-    <header className='bg-black'>
+    <header className='bg-black bg-opacity-50 fixed w-full z-10'>
       <nav className='flex items-center justify-between p-3'>
         <h1 className='text-2xl text-white'>Portfolio</h1>
         <DesktopHeader />
