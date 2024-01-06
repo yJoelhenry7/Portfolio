@@ -7,16 +7,16 @@ import ProjectCard from "./cards/ProjectCard";
 const projects = [
     {
       id: 0,
-      title: "",
-      date: "Jun 2023 - Jul 2023",
+      title: "SpendSync",
+      date: "Sept 2023 - Sept 2023",
       description:
-        "",
+        "Spend Sync is an Expense Tracker which tracks your personal Expenses",
       image:
-        "",
-      tags: [],
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/Spend%20Sync.png?alt=media&token=c11bbdd3-42a7-4199-9c98-fdcd4830cce4",
+      tags: ['React Js', 'Context-api'],
       category: "web app",
-      github: "",
-      webapp: "",
+      github: "https://github.com/yJoelhenry7/SpendSync",
+      webapp: "https://spendsync.netlify.app/",
     },
     // {
     //   id: 1,
