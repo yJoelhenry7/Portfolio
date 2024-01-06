@@ -2,6 +2,7 @@ import { useState } from "react";
 import DesktopHeader from "./DesktopHeader"
 import MobileHeader from "./MobileHeader"
 import { FaBars } from 'react-icons/fa6';
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
@@ -14,7 +15,7 @@ const Header = () => {
     <>
     <header className='bg-black bg-opacity-50 fixed w-full z-10'>
       <nav className='flex items-center justify-between p-3'>
-        <h1 className='text-2xl text-white'>Portfolio</h1>
+        <Link to='/'><h1 className='text-2xl text-white'>Portfolio</h1></Link>
         <DesktopHeader />
         <div className='md:hidden'>
           <FaBars className='scale-150 text-white' onClick={ showNavbar }/>

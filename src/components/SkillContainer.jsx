@@ -172,11 +172,11 @@ const SkillContainer = () => {
   return (
     <div className="flex justify-center flex-wrap" >
         {skills.map((skill,i)=> (
-            <div className="border border-white m-4 p-8 max-w-lg rounded-xl" style={{boxShadow: 'rgba(23, 92, 230, 0.15) 0px 4px 24px', border: '0.1px solid rgb(133, 76, 230'}}  key={i}>
+            <div className="skillitem border border-white m-4 p-8 max-w-lg rounded-xl" style={{boxShadow: 'rgba(23, 92, 230, 0.15) 0px 4px 24px', border: '0.1px solid rgb(133, 76, 230'}}  key={i}>
                 <h1 className="text-center text-2xl md:text-4xl text-white font-semibold opacity-70 my-4">{skill.title}</h1>
                 <div className="flex items-center justify-center flex-wrap gap-2 cursor-pointer" >
                     {skill.skills.map((details,i)=> (
-                        <div className="flex items-center gap-2 border border-white border-opacity-50 rounded-xl p-2 hover:bg-white hover:bg-opacity-50 hover:text-black" key={i}>
+                        <div className="skillcontainer flex items-center gap-2 border border-white border-opacity-50 rounded-xl p-2 hover:border-purplish" key={i}>
                             <img className="w-5" src={details.image} alt="logo" />
                             <h1 className="opacity-50">{details.name}</h1>
                         </div>

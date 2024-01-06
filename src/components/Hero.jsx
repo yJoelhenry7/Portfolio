@@ -23,8 +23,8 @@ const Hero = () => {
              />
          </span>
         </h1>
-        <p className="w-full mb-4 text-xl opacity-50">I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
-        <button className="resumebtn px-16 py-4 text-xl font-semibold rounded-2xl shadow-xl hover:scale-110" style={{background: 'linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%)'}}><Link to='https://drive.google.com/file/d/1C96IINgbB6MYDdTgaSQHY2IWicBt_UIR/view?usp=sharing' target='_blank'>Check Resume</Link></button>
+        <p className="w-full mb-8 text-xl opacity-50">I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
+        <button className="resumebtn px-8 py-4 text-xl font-semibold rounded-2xl shadow-xl hover:scale-110" style={{background: 'linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%)'}}><Link to='https://drive.google.com/file/d/1C96IINgbB6MYDdTgaSQHY2IWicBt_UIR/view?usp=sharing' target='_blank'>Check Resume</Link></button>
       </div>
       <div className="basis-full md:basis-1/2 relative">
         <HeroBgAnimation />
