@@ -12,7 +12,8 @@ export default {
         'black':'#000000',
         'white': '#ffffff',
         'purplish':'#854ce6',
-        'blueish':'#306ee8'
+        'blueish':'#306ee8',
+        'navyblue':'#171721'
       }
     },
     screens: {

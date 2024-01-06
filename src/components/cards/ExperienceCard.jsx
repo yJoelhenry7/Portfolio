@@ -2,7 +2,7 @@
 
 const ExperienceCard = ({ experience }) => {
   return (
-    <div className="expcard border-blueish border p-4 rounded-xl">
+    <div className="expcard border-blueish border p-4 rounded-xl" style={{ transition: 'all 0.8s ease-in-out 0s'}}>
         <div className="w-96 flex items-center gap-2">
             <img className="w-12 rounded-sm" src={experience.img} alt="company logo" />
             <div className="w-full">
@@ -11,7 +11,7 @@ const ExperienceCard = ({ experience }) => {
                 <p className="expval text-xs md:text-sm text-white opacity-50">{experience.date}</p>
             </div>
         </div>
-        <div className="expval m-4 opacity-50 text-sm md:text-md">
+        <div className="expval m-4 opacity-50 text-sm md:text-md" style={{textOverflow: 'ellipsis'}}>
             <p>{experience?.desc && (
                <span>{experience?.desc}</span>
             )}</p>

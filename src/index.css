@@ -53,7 +53,6 @@ body{
 }
 .expImg{
     display: none;
-    transition: all 0.8s ease-in-out 0s;
 }
 .expcard:hover .expImg{
    display: flex;
@@ -63,6 +62,23 @@ body{
     -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: center;
+}
+.proDesc{
+    overflow: hidden;
+    margin-top: 8px;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+.proCard{
+    box-shadow: 0 0 12px 4px rgba(0,0,0,0.4);
+}
+.proCard:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
+    filter: brightness(1.1);
 }
 @media only screen and (max-width: 524px) {
     .expcard{
