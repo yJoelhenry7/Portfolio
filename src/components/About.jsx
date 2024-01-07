@@ -20,8 +20,8 @@ const About = () => {
                 </p>
                 <p className="text-lg">Interested in MERN STACK, Machine Learning and Data Science</p>
                 <div>
-                   <Link to='https://github.com/yJoelhenry7'  target='_blank'> <GitHub style={{fontSize: '2.2rem'}} /></Link>
-                   <Link to='https://www.linkedin.com/in/joel-henry-yellamelli/' target='_blank'> <LinkedIn style={{fontSize: '2.2rem'}} /></Link>
+                   <Link to='https://github.com/yJoelhenry7' aria-label='Github Link'  target='_blank'> <GitHub style={{fontSize: '2.2rem'}} /></Link>
+                   <Link to='https://www.linkedin.com/in/joel-henry-yellamelli/' aria-label='Linkedin Link' target='_blank'> <LinkedIn style={{fontSize: '2.2rem'}} /></Link>
                 </div>
             </div>
         </div>
