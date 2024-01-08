@@ -18,8 +18,21 @@ const projects = [
       github: "https://github.com/yJoelhenry7/SpendSync",
       webapp: "https://spendsync.netlify.app/",
     },
+    {
+      id: 1,
+      title: "Shoe Stop",
+      date: "Oct 2022 - Nov 2022",
+      description:
+        "Shoe Stop is an Ecommerce Website which is a online store built specifically for shoes",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/shoe%20stop.png?alt=media&token=fda2ea85-8e40-4c20-9d0d-eb7c2085c9dd",
+      tags: ['Node Js', 'Express Js', 'Embedded JavaScript(EJS)','Firebase'],
+      category: "web app",
+      github: "https://github.com/yJoelhenry7/Shoe-Stop",
+      webapp: "https://shoe-stop-e-commerce.onrender.com",
+    },
     // {
-    //   id: 1,
+    //   id: 2,
     //   title: "",
     //   date: "",
     //   description:
