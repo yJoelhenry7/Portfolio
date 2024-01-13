@@ -6,19 +6,6 @@ import ProjectCard from "./cards/ProjectCard";
 
 const projects = [
     {
-      id: 0,
-      title: "SpendSync",
-      date: "Sept 2023 - Sept 2023",
-      description:
-        "Spend Sync is an Expense Tracker which tracks your personal Expenses",
-      image:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/Spend%20Sync.png?alt=media&token=c11bbdd3-42a7-4199-9c98-fdcd4830cce4",
-      tags: ['React Js', 'Context-api'],
-      category: "web app",
-      github: "https://github.com/yJoelhenry7/SpendSync",
-      webapp: "https://spendsync.netlify.app/",
-    },
-    {
       id: 1,
       title: "Shoe Stop",
       date: "Oct 2022 - Nov 2022",
@@ -30,6 +17,32 @@ const projects = [
       category: "web app",
       github: "https://github.com/yJoelhenry7/Shoe-Stop",
       webapp: "https://shoe-stop-e-commerce.onrender.com",
+    },
+    {
+      id: 2,
+      title: "Todo Web Application",
+      date: "April 2023 - April 2023",
+      description:
+        "Todo Manager Web App to Track your TODO Tasks",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/Todo%20Webapp.jpeg?alt=media&token=80912755-c86b-4f0e-b5b6-a17417a4f11c",
+      tags: ['Express Js', 'Embedded Javascript','Passport Js' ,'PostgreSQL'],
+      category: "web app",
+      github: "https://github.com/yJoelhenry7/Todo",
+      webapp: "https://todo-web-application-unse.onrender.com/",
+    },
+    {
+      id: 3,
+      title: "SpendSync",
+      date: "Sept 2023 - Sept 2023",
+      description:
+        "Spend Sync is an Expense Tracker which tracks your personal Expenses",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/Spend%20Sync.png?alt=media&token=c11bbdd3-42a7-4199-9c98-fdcd4830cce4",
+      tags: ['React Js', 'Context-api'],
+      category: "web app",
+      github: "https://github.com/yJoelhenry7/SpendSync",
+      webapp: "https://spendsync.netlify.app/",
     },
     // {
     //   id: 2,
