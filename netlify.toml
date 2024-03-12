@@ -2,3 +2,8 @@
   from = "/*"
   to = "/"
   status = 200
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+  [plugins.inputs]
+    buildDir = "public"
