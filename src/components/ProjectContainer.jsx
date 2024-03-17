@@ -39,7 +39,7 @@ const projects = [
         "Spend Sync is an Expense Tracker which tracks your personal Expenses",
       image:
         "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/Spend%20Sync.png?alt=media&token=c11bbdd3-42a7-4199-9c98-fdcd4830cce4",
-      tags: ['React Js', 'Context-api'],
+      tags: ['MongoDB','Express JS','React Js', 'Node JS', 'Context-API'],
       category: "web app",
       github: "https://github.com/yJoelhenry7/SpendSync",
       webapp: "https://spendsync.netlify.app/",
