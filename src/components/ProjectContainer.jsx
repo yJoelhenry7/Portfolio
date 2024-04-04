@@ -5,21 +5,34 @@ import { useState } from "react";
 import ProjectCard from "./cards/ProjectCard";
 
 const projects = [
+  {
+    id: 1,
+    title: "Hospital Management",
+    date: "Nov 2023 - Dec 2023",
+    description:
+      "Hospital Management website to manage the patient data",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/hospital%20management.png?alt=media&token=b7798802-0cec-44ff-90c2-6912b07702d2",
+    tags: ['django','jinja2','css','sqlite'],
+    category: "web app",
+    github: "https://github.com/yJoelhenry7/HospitalManagement",
+    webapp: "https://hospital-management-lime.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "SpendSync",
+    date: "Sept 2023 - Sept 2023",
+    description:
+      "Spend Sync is an Expense Tracker which tracks your personal Expenses",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/SpendSync.png?alt=media&token=c625cb04-7931-47cb-85c1-6bc0846e355f",
+    tags: ['MongoDB','Express JS','React Js', 'Node JS', 'Context-API'],
+    category: "web app",
+    github: "https://github.com/yJoelhenry7/SpendSync",
+    webapp: "https://spendsync.netlify.app/",
+  },
     {
-      id: 1,
-      title: "Shoe Stop",
-      date: "Oct 2022 - Nov 2022",
-      description:
-        "Shoe Stop is an Ecommerce Website which is a online store built specifically for shoes",
-      image:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/shoe%20stop.png?alt=media&token=fda2ea85-8e40-4c20-9d0d-eb7c2085c9dd",
-      tags: ['Node Js', 'Express Js', 'Embedded JavaScript(EJS)','Firebase'],
-      category: "web app",
-      github: "https://github.com/yJoelhenry7/Shoe-Stop",
-      webapp: "https://shoe-stop-e-commerce.onrender.com",
-    },
-    {
-      id: 2,
+      id: 3,
       title: "Todo Web Application",
       date: "April 2023 - April 2023",
       description:
@@ -32,18 +45,32 @@ const projects = [
       webapp: "https://todo-web-application-unse.onrender.com/",
     },
     {
-      id: 3,
-      title: "SpendSync",
-      date: "Sept 2023 - Sept 2023",
+      id: 4,
+      title: "Translate-Mate",
+      date: "Feb 2023 - Feb 2023",
       description:
-        "Spend Sync is an Expense Tracker which tracks your personal Expenses",
+        "Translate Mate is an Andriod app which takes the input text and convert it into preferred Language",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/Spend%20Sync.png?alt=media&token=c11bbdd3-42a7-4199-9c98-fdcd4830cce4",
-      tags: ['MongoDB','Express JS','React Js', 'Node JS', 'Context-API'],
-      category: "web app",
-      github: "https://github.com/yJoelhenry7/SpendSync",
-      webapp: "https://spendsync.netlify.app/",
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/translate%20mate.jpg?alt=media&token=279b2ed5-7ddb-409d-84f8-3603dbb0e5c9",
+      tags: ['Java','Android Studio','XML','Firebase ML Kit'],
+      category: "android app",
+      github: "https://github.com/yJoelhenry7/Translate-Mate",
+      webapp: "",
     },
+    {
+      id: 5,
+      title: "Shoe Stop",
+      date: "Oct 2022 - Nov 2022",
+      description:
+        "Shoe Stop is an Ecommerce Website which is a online store built specifically for shoes",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/shoe%20stop.png?alt=media&token=fda2ea85-8e40-4c20-9d0d-eb7c2085c9dd",
+      tags: ['Node Js', 'Express Js', 'Embedded JavaScript(EJS)','Firebase'],
+      category: "web app",
+      github: "https://github.com/yJoelhenry7/Shoe-Stop",
+      webapp: "https://shoe-stop-e-commerce.onrender.com",
+    },
+
     // {
     //   id: 2,
     //   title: "",
