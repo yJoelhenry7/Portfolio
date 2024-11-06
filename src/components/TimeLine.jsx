@@ -10,15 +10,27 @@ const TimeLine = () => {
     const experiences = [
         {
           id: 0,
-          img: "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/gptfu_logo-background.png?alt=media&token=b9f488e3-d2ab-45c6-b049-b19c3cbcb7fd",
-          role: "Software Engineer Intern",
-          company: "GPTfu",
-          date: "April 2023 - Present",
-          desc: "Working on GPTfu Platforms, managing Frontend, and Backend For the GPTfu Website.",
+          img: "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/oc%20logo.jpeg?alt=media&token=b4edca25-8b73-436c-a7a4-bb3befd06a6f",
+          role: "Software Engineer",
+          company: "One Convergence",
+          date: "June 2024 - Present",
+          desc: "Working on Frontend Part of the Websites",
           skills: [
-            "Flask","Python", "Jinja","HTML","CSS", "Bootstrap","MySQL","Postgres","PHP","WORDPRESS",
+            "React js","Next js","Tailwind Css","ShadCN","Wordpress","Fastapi","Cypress","Scrapy Playwright"
           ],
           doc: "",
+        },
+        {
+          id: 1,
+          img: "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/oc%20logo.jpeg?alt=media&token=b4edca25-8b73-436c-a7a4-bb3befd06a6f",
+          role: "Software Engineer Intern",
+          company: "One Convergence",
+          date: "April 2023 - May 2024",
+          desc: "Working on GPTfu Platforms, managing Frontend, and Backend For the GPTfu Website.",
+          skills: [
+            "Flask","Python", "Jinja","HTML","CSS", "Bootstrap","MySQL","Postgres","Php","Wordpress","AWS","Docker"
+          ],
+          doc: "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/One%20Convergence%20Internship%20Certficate.jpg?alt=media&token=cffeb954-1f5b-45c8-bda1-63be4d7e7fd3",
         },
         {
           id: 1,
