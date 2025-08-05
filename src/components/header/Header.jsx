@@ -15,7 +15,11 @@ const Header = () => {
     <>
     <header className='bg-black bg-opacity-50 fixed w-full z-10'>
       <nav className='flex items-center justify-between p-3 mx-6'>
-        <Link to='/'><h1 className='text-4xl ml-4 text-white' style={{fontFamily:"Great Vibes"}}>Joelhenry.</h1></Link>
+        <div className="md:hidden">
+          <Link to="/" className="text-4xl text-white" style={{ fontFamily: "Great Vibes" }}>
+            Joelhenry.
+          </Link>
+        </div>
         <DesktopHeader />
         <div className='md:hidden'>
           <FaBars className='scale-150 text-white' onClick={ showNavbar }/>
