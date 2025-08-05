@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
     <header className='bg-black bg-opacity-50 fixed w-full z-10'>
-      <nav className='flex items-center justify-between p-3'>
+      <nav className='flex items-center justify-between p-3 mx-6'>
         <Link to='/'><h1 className='text-4xl ml-4 text-white' style={{fontFamily:"Great Vibes"}}>Joelhenry.</h1></Link>
         <DesktopHeader />
         <div className='md:hidden'>

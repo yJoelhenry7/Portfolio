@@ -108,8 +108,8 @@ const ProjectContainer = ({openModal,setOpenModal}) => {
     const btnstyle ='py-2 px-4'
     const activeStyle = 'py-2 px-4 bg-purplish bg-opacity-40 rounded-md'
   return (
-    <div className="pt-16 text-white flex justify-center items-center flex-col" style={{background:'linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%)'}}>
-        <h1 className="text-4xl m-4 font-bold">Projects</h1>
+    <div className="pt-16 text-white flex justify-center items-center flex-col my-4" style={{background:'linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%)'}}>
+        <h1 className="text-4xl m-4 font-bold" id="projects">Projects</h1>
         <p className="w-1/3 text-center opacity-60 mb-3">I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.</p>
         <div className="border-purplish border text-purplish rounded-xl flex m-8">
             { toggle === 'all' ? <button className={activeStyle} onClick={() => setToggle('all')}>All </button> : <button className={btnstyle} onClick={() => setToggle('all')}>All </button> }
