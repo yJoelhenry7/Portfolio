@@ -1,4 +1,16 @@
 import { motion } from "framer-motion";
+import javascriptImg from '../assets/Images/javascript.png'
+import kubernetesImg from '../assets/Images/kubernetes-logo.png'
+import netlifyImg from '../assets/Images/netlify-icon-logo.png'
+import reactNativeImg from '../assets/Images/react-native-logo.png'
+import reduxImg from '../assets/Images/redux-logo.png'
+import shadcnImg from '../assets/Images/shadcn-ui-logo.png'
+import tailwindImg from '../assets/Images/tailwind-css-logo.png'
+import vsCodeImg from '../assets/Images/visual-studio-code-logo.png'
+import windsurfImg from '../assets/Images/windsurf-logo.png'
+import cursorImg from '../assets/Images/cursor-logo.png'
+import claudeImg from '../assets/Images/claude-logo.png'
+import openAIImg from '../assets/Images/open-ai-logo.png'
 
 const SkillContainer = () => {
 
@@ -37,8 +49,7 @@ const SkillContainer = () => {
             },
             {
               name: "JavaScript",
-              image:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+              image: javascriptImg,
             },
             {
               name: "TypeScript",
@@ -52,8 +63,7 @@ const SkillContainer = () => {
             },
             {
               name: "Tailwind CSS",
-              image:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/768px-Tailwind_CSS_Logo.svg.png",
+              image: tailwindImg,
             },
             {
               name: "Material UI",
@@ -62,8 +72,19 @@ const SkillContainer = () => {
             },
             {
               name: "Shad CN/UI",
-              image:
-                "https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/04/20161105/shadcn-ui-logo-EF735EC0E5-seeklogo.com.png",
+              image: shadcnImg,
+            },
+            {
+              name: "Redux Toolkit",
+              image: reduxImg,
+            },
+            {
+              name: "TanStack Query",
+              image: "https://avatars.githubusercontent.com/u/72518640?s=200&v=4",
+            },
+            {
+              name: "Storybook",
+              image: "https://raw.githubusercontent.com/storybookjs/brand/main/icon/icon-storybook-default.svg",
             },
           ],
         },
@@ -112,6 +133,14 @@ const SkillContainer = () => {
               name: "Firebase",
               image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
             },
+            {
+              name: "Go",
+              image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg",
+            },
+            {
+              name: "BetterAuth",
+              image: "https://www.better-auth.com/icon.png",
+            },
           ],
         },
         {
@@ -119,8 +148,7 @@ const SkillContainer = () => {
           skills: [
             {
                 name: "React Native",
-                image:
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png",
+                image: reactNativeImg,
               },
             {
               name: "Java",
@@ -183,19 +211,12 @@ const SkillContainer = () => {
                 "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
             },
             {
-              name: "Docker",
-              image:
-                "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-            },
-            {
               name: "Netlify",
-              image:
-                "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+              image: netlifyImg,
             },
             {
               name: "VS Code",
-              image:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+              image: vsCodeImg,
             },
             {
                 name: "Linux",
@@ -207,6 +228,48 @@ const SkillContainer = () => {
             //   image:
             //     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/600px-Figma-logo.svg.png",
             // },
+          ],
+        },
+        {
+          title: "DevOps & Cloud",
+          skills: [
+            {
+              name: "Docker",
+              image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+            },
+            {
+              name: "Kubernetes",
+              image: kubernetesImg,
+            },
+            {
+              name: "Terraform",
+              image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg",
+            },
+            {
+              name: "AWS",
+              image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+            },
+          ],
+        },
+        {
+          title: "AI Tools",
+          skills: [
+            {
+              name: "Windsurf",
+              image: windsurfImg,
+            },
+            {
+              name: "Cursor",
+              image: cursorImg,
+            },
+            {
+              name: "Claude",
+              image: claudeImg,
+            },
+            {
+              name: "ChatGPT",
+              image: openAIImg,
+            },
           ],
         },
       ];

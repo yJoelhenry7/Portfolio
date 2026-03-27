@@ -5,36 +5,38 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import ExperienceCard from './cards/ExperienceCard'
+import oclogo from '../assets/Images/oclogo.jpeg'
+import studyowllogo from '../assets/Images/studyowllogo.jpeg'
 
 const TimeLine = () => {
     const experiences = [
         {
           id: 0,
-          img: "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/oc%20logo.jpeg?alt=media&token=b4edca25-8b73-436c-a7a4-bb3befd06a6f",
+          img: oclogo,
           role: "Software Engineer",
           company: "One Convergence",
           date: "June 2024 - Present",
-          desc: "Working on Frontend Part of the Websites",
+          desc: "Worked across 5 projects: customized WordPress sites with PHP/HTML/CSS and built web scraping & Cypress E2E testing for GoodDoc; built React/Next.js components with Shadcn UI, FastAPI backend, and Svelte features for Dkubex; developed a responsive Next.js+TypeScript UI integrated with FastAPI for an AI Agentic platform; built Next.js components with BetterAuth RBAC and TanStack Query API integrations for Kasu.AI; developed Go backend APIs, deployed microservices with Kubernetes/Helm/RayServe, and implemented IaC with Terraform & AWS for DocMind.",
           skills: [
-            "React js","Next js","Tailwind Css","ShadCN","Wordpress","Fastapi","Cypress","Scrapy Playwright"
+            "React js","Next js","TypeScript","Tailwind CSS","ShadCN","Svelte","Redux Toolkit","TanStack Query","Storybook","FastAPI","Go","Wordpress","PHP","Scrapy","Playwright","Cypress","BetterAuth","Docker","Kubernetes","Terraform","AWS"
           ],
           doc: "",
         },
         {
           id: 1,
-          img: "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/oc%20logo.jpeg?alt=media&token=b4edca25-8b73-436c-a7a4-bb3befd06a6f",
+          img: oclogo,
           role: "Software Engineer Intern",
           company: "One Convergence",
           date: "April 2023 - May 2024",
-          desc: "Working on GPTfu Platforms, managing Frontend, and Backend For the GPTfu Website.",
+          desc: "Worked on 2 projects: customized a WordPress site with PHP, HTML, CSS, jQuery and MySQL backend for GPTfu, while also contributing React components to the UI; built a full-stack Flask web app for HappiCards with Jinja2, Bootstrap, PostgreSQL, Docker, and AWS (EC2, S3), and optimized performance using Google Lighthouse and BrowserStack.",
           skills: [
-            "Flask","Python", "Jinja","HTML","CSS", "Bootstrap","MySQL","Postgres","Php","Wordpress","AWS","Docker"
+            "Wordpress","PHP","HTML","CSS","jQuery","Bootstrap","MySQL","React js","Python","Flask","Jinja2","PostgreSQL","Docker","AWS","JavaScript"
           ],
           doc: "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/One%20Convergence%20Internship%20Certficate.jpg?alt=media&token=cffeb954-1f5b-45c8-bda1-63be4d7e7fd3",
         },
         {
           id: 1,
-          img: "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/studyowl.jpeg?alt=media&token=f2023e5c-82c9-43f9-88fc-b67d56080fda",
+          img: studyowllogo,
           role: "FullStack Intern",
           company: "StudyOwl ",
           date: "Sept 2022 - Nov 2022",
