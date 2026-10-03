@@ -6,13 +6,68 @@ import ProjectCard from "./cards/ProjectCard";
 
 const projects = [
   {
+    id: 10,
+    title: "Dr Lasya's Derma Glo",
+    date: "Jun 2026 - Jul 2026",
+    description: "Website for Dr Lasya's Derma Glo",
+    image: "",
+    tags: ['SEO', 'Tailwind CSS'],
+    category: "client work",
+    github: "",
+    webapp: "https://www.drlasyasdermaglo.com/",
+  },
+  {
+    id: 9,
+    title: "Amritha Rehab & Elder Care",
+    date: "Jan 2026 - May 2026",
+    description: "Website for Amritha Rehab & Elder Care with back-end development and customer relationship management",
+    image: "",
+    tags: ['Back-End Web Development', 'CRM'],
+    category: "client work",
+    github: "",
+    webapp: "https://amritha-wa-crm.vercel.app/login",
+  },
+  {
+    id: 8,
+    title: "MySmile Luxe Dental Lounge",
+    date: "Feb 2026 - Apr 2026",
+    description: "Professional Dental Lounge Website",
+    image: "",
+    tags: ['SEO', 'Tailwind CSS'],
+    category: "client work",
+    github: "",
+    webapp: "https://mysmileluxedentallounge.com/",
+  },
+  {
+    id: 7,
+    title: "VVR Industries",
+    date: "Dec 2025 - Feb 2026",
+    description: "Website for VVR Industries with customer relationship management",
+    image: "",
+    tags: ['Next.js', 'CRM'],
+    category: "client work",
+    github: "",
+    webapp: "https://www.vvrindustries.com/",
+  },
+  {
+    id: 6,
+    title: "Core Space Infra",
+    date: "Jun 2025 - Jul 2025",
+    description: "Construction and Interior Design Website",
+    image: "",
+    tags: ['SEO', 'Tailwind CSS'],
+    category: "client work",
+    github: "",
+    webapp: "https://www.corespaceinfra.com/",
+  },
+  {
     id: 1,
     title: "Hospital Management",
     date: "Nov 2023 - Dec 2023",
     description:
       "Hospital Management website to manage the patient data",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/hospital%20management.png?alt=media&token=b7798802-0cec-44ff-90c2-6912b07702d2",
+      "/hospital management.jpg",
     tags: ['django','jinja2','css','sqlite'],
     category: "web app",
     github: "https://github.com/yJoelhenry7/HospitalManagement",
@@ -25,7 +80,7 @@ const projects = [
     description:
       "Spend Sync is an Expense Tracker which tracks your personal Expenses",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/SpendSync.png?alt=media&token=c625cb04-7931-47cb-85c1-6bc0846e355f",
+      "/spend-sync.png",
     tags: ['MongoDB','Express JS','React Js', 'Node JS', 'Context-API'],
     category: "web app",
     github: "https://github.com/yJoelhenry7/SpendSync",
@@ -38,7 +93,7 @@ const projects = [
       description:
         "Todo Manager Web App to Track your TODO Tasks",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/Todo%20Webapp.jpeg?alt=media&token=80912755-c86b-4f0e-b5b6-a17417a4f11c",
+        "/todo-manager.jpg",
       tags: ['Express Js', 'Embedded Javascript','Passport Js' ,'PostgreSQL'],
       category: "web app",
       github: "https://github.com/yJoelhenry7/Todo",
@@ -51,7 +106,7 @@ const projects = [
       description:
         "Translate Mate is an Andriod app which takes the input text and convert it into preferred Language",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/translate%20mate.jpg?alt=media&token=279b2ed5-7ddb-409d-84f8-3603dbb0e5c9",
+        "/translate-mate.jpg",
       tags: ['Java','Android Studio','XML','Firebase ML Kit'],
       category: "android app",
       github: "https://github.com/yJoelhenry7/Translate-Mate",
@@ -64,7 +119,7 @@ const projects = [
       description:
         "Shoe Stop is an Ecommerce Website which is a online store built specifically for shoes",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-26e36.appspot.com/o/shoe%20stop.png?alt=media&token=fda2ea85-8e40-4c20-9d0d-eb7c2085c9dd",
+        "/shoe-stop.jpg",
       tags: ['Node Js', 'Express Js', 'Embedded JavaScript(EJS)','Firebase'],
       category: "web app",
       github: "https://github.com/yJoelhenry7/Shoe-Stop",
@@ -118,9 +173,9 @@ const ProjectContainer = ({openModal,setOpenModal}) => {
             <div className="w-0.5 bg-purplish"></div>
             { toggle === 'android app' ? <button className={activeStyle} onClick={() => setToggle('android app')}>ANDROID APP'S</button> : <button className={btnstyle} onClick={() => setToggle('android app')}>ANDROID APP'S </button> }
             <div className="w-0.5 bg-purplish"></div>
-            { toggle === 'machine learning' ? <button className={activeStyle} onClick={() => setToggle('machine learning')}>MACHINE LEARNING </button> : <button className={btnstyle} onClick={() => setToggle('machine learning')}>MACHINE LEARNING </button> }
+            { toggle === 'client work' ? <button className={activeStyle} onClick={() => setToggle('client work')}>CLIENT WORK </button> : <button className={btnstyle} onClick={() => setToggle('client work')}>CLIENT WORK </button> }
         </div>
-        <div className="flex justify-center items-center flex-wrap w-3/4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center w-full max-w-6xl px-4 pb-8">
             {toggle === 'all' && projects
                 .map((project, index) => (
                 <ProjectCard key={index} project={project} openModal={openModal} setOpenModal={setOpenModal} />

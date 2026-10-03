@@ -22,9 +22,12 @@ const About = () => {
                   
                   </p>
                   <p className="text-lg mb-1">
-                    Software Engineer @<a href='https://www.oneconvergence.com/' className='font-semibold'>OneConvergence</a>
+                    Full Stack Developer @<a href='https://www.mondee.com/' className='font-semibold'>Mondee</a>
                   </p>
-                  <p className="text-lg mb-2">FullStack Dev | Andriod Dev | Machine Learning </p>
+                  <p className="text-lg mb-2">Full Stack AI Engineer | React | Next.js | FastAPI | LangChain</p>
+                  <p className="mb-4 opacity-70">
+                    I have a B.Tech in Artificial Intelligence and Data Science and am currently pursuing an MBA. Over 3+ years I have built web platforms, AI agents with RAG, and cloud-deployed microservices, and I enjoy turning ideas into useful, well-optimised products.
+                  </p>
                   <div>
                     <Link to='https://github.com/yJoelhenry7' aria-label='Github Link'  target='_blank'> <GitHub style={{fontSize: '2.2rem'}} /></Link>
                     <Link to='https://www.linkedin.com/in/joel-henry-yellamelli/' aria-label='Linkedin Link' target='_blank'> <LinkedIn style={{fontSize: '2.2rem'}} /></Link>

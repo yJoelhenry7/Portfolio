@@ -5,6 +5,7 @@ const DesktopHeader = () => (
     {/* Left links */}
     <div className="flex flex-1 justify-evenly gap-6 text-xl text-white">
       <NavLink to="/">Home</NavLink>
+      <a href="/#about">About</a>
       <a href="/#experience">Experience</a>
     </div>
 
@@ -20,7 +21,9 @@ const DesktopHeader = () => (
     {/* Right links */}
     <div className="flex flex-1 justify-evenly gap-6 text-xl text-white">
       <a href="/#skills">Skills</a>
+      <a href="/#education">Education</a>
       <a href="/#projects">Projects</a>
+      <a href="/#contact">Contact</a>
     </div>
   </div>
 );

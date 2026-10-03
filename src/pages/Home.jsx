@@ -7,6 +7,9 @@ import Header from "../components/header/Header"
 import ProjectDetails from "../components/ProjectDetails";
 import ExperienceContainer from "../components/ExperienceContainer"
 import CursorFollower from "../components/CursorFollower";
+import Education from "../components/Education";
+import About from "../components/About";
+import Contact from "../components/Contact";
 import ScrollToTopButton from "../components/ScrollToTopButton";
 
 const Home = () => {
@@ -17,11 +20,14 @@ const Home = () => {
       <ScrollToTopButton />
       <Header />
       <Hero />
+      <About />
       <ExperienceContainer />
       <Skills />
+      <Education />
       <ProjectContainer  openModal={openModal} setOpenModal={setOpenModal} />
+      <Contact />
       <Footer />
-      {openModal.state &&
+      {openModal.project &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
         }
     </>

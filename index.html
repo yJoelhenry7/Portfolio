@@ -3,18 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="title" content="Joel Henry's Portfolio">
-    <meta name="og:title" content="Joel Henry's Portfolio">
-    <meta name="description" content="Joel Henry Yellamelli's Portfolio Website. This website showcases the information about Joel Henry">
-    <meta name="og:description" content="Joel Henry Yellamelli's Portfolio Website. This website showcases the information about Joel Henry">
+    <meta name="title" content="Joel Henry Yellamelli - Full Stack AI Engineer">
+    <meta name="og:title" content="Joel Henry Yellamelli - Full Stack AI Engineer">
+    <meta name="description" content="Joel Henry Yellamelli is a Full Stack AI Engineer building AI-native products with React, Next.js, FastAPI and LangChain. Explore experience, skills and projects.">
+    <meta name="og:description" content="Joel Henry Yellamelli is a Full Stack AI Engineer building AI-native products with React, Next.js, FastAPI and LangChain. Explore experience, skills and projects.">
     <meta content="Joel Henry Yellamelli" name="author">
     <meta content="joel henry,joel henry yellamelli, joel henry yellamelli portfolio,joel yellamelli portfolio, yellamelli joel henry portfolio,yellamelli joel portfolio, yellamelli henry portfolio" name="keywords">
     <meta name="google-site-verification" content="Zzf1n_449e_ne0CfM__RWnk7cDFx5ty7Vh2uRwlJEh0" />
-    <title>Joel Henry Yellamelli Portfolio</title>
+    <title>Joel Henry Yellamelli | Full Stack AI Engineer</title>
     <link rel="icon" type="image/svg+xml" href="https://avatars.githubusercontent.com/u/86186443?v=4" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
   </head>
   <body>
+    <!-- static copy of the contact form so Netlify can detect it at build time -->
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="subject" />
+      <textarea name="message"></textarea>
+      <input name="bot-field" />
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

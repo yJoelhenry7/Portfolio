@@ -79,6 +79,18 @@ const SkillContainer = () => {
               image: reduxImg,
             },
             {
+              name: "Zustand",
+              image: "https://avatars.githubusercontent.com/u/45790596?s=200&v=4",
+            },
+            {
+              name: "React Hook Form",
+              image: "https://avatars.githubusercontent.com/u/53109395?s=200&v=4",
+            },
+            {
+              name: "Zod",
+              image: "https://avatars.githubusercontent.com/u/156294236?s=200&v=4",
+            },
+            {
               name: "TanStack Query",
               image: "https://avatars.githubusercontent.com/u/72518640?s=200&v=4",
             },
@@ -134,6 +146,18 @@ const SkillContainer = () => {
               image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
             },
             {
+              name: "Django",
+              image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg",
+            },
+            {
+              name: "Redis",
+              image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg",
+            },
+            {
+              name: "Supabase",
+              image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg",
+            },
+            {
               name: "Go",
               image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg",
             },
@@ -179,6 +203,11 @@ const SkillContainer = () => {
               name:"Scrapy",
               image:
               "https://binlivm470.wordpress.com/wp-content/uploads/2017/02/scrapy.png"
+            },
+            {
+              name:"BrowserStack",
+              image:
+              "https://avatars.githubusercontent.com/u/1119569?s=200&v=4"
             },
             {
               name:"Playwright",
@@ -242,13 +271,26 @@ const SkillContainer = () => {
               image: kubernetesImg,
             },
             {
+              name: "Helm",
+              image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/helm/helm-original.svg",
+            },
+            {
               name: "Terraform",
               image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg",
             },
             {
-              name: "AWS",
+              name: "AWS (EC2, S3, Lambda, CloudFormation, EventBridge)",
               image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
             },
+          ],
+        },
+        {
+          title: "AI / ML",
+          skills: [
+            { name: "LangChain", image: "https://avatars.githubusercontent.com/u/126733545?s=200&v=4" },
+            { name: "RAG", image: claudeImg },
+            { name: "FAISS", image: "https://avatars.githubusercontent.com/u/69631?s=200&v=4" },
+            { name: "MLflow", image: "https://avatars.githubusercontent.com/u/39938107?s=200&v=4" },
           ],
         },
         {
